@@ -1,4 +1,4 @@
-![ProWallet](/ProWallet/tree/main/assets)
+![ProWallet](/main/assets/ProWallet.png)
 
 
 # 💼 ProWallet
