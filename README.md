@@ -1,3 +1,6 @@
+![ProWallet](https://github.com/beto-rocha-blockchain/ProWallet/tree/main/assets)
+
+
 # 💼 ProWallet
 
 **ProWallet** é uma carteira Web3 segura e moderna, desenvolvida com React, Vite e Wagmi. Oferece uma interface amigável para conexão via MetaMask, exibição de saldo e envio de transações on-chain.
