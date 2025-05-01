@@ -1,6 +1,4 @@
 ![ProWallet](assets/ProWallet.png)
-)
-
 
 # 💼 ProWallet
 
