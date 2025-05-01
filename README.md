@@ -1,4 +1,4 @@
-![ProWallet](https://github.com/beto-rocha-blockchain/ProWallet/tree/main/assets)
+![ProWallet](/ProWallet/tree/main/assets)
 
 
 # 💼 ProWallet
