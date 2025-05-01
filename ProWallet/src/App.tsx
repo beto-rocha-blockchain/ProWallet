@@ -1,4 +1,6 @@
+import { useEffect, useState } from 'react'
 import { ConnectButton } from '@rainbow-me/rainbowkit'
+import { useAccount, useBalance } from 'wagmi'
 import styled from '@emotion/styled'
 
 const Container = styled.div`
@@ -17,11 +19,27 @@ const Title = styled.h1`
   margin-bottom: 1rem;
 `
 
+const BalanceDisplay = styled.p`
+  font-size: 1.5rem;
+  margin-top: 1rem;
+`
+
 function App() {
+  const { isConnected, address } = useAccount()  // Obtém a conta conectada
+  const { data: balance, isLoading } = useBalance({
+    address, // Passa o endereço da conta conectada
+  })
+
   return (
     <Container>
       <Title>ProWallet</Title>
       <ConnectButton />
+      {isConnected && address && !isLoading && (
+        <BalanceDisplay>
+          Saldo: {balance?.formatted} {balance?.symbol}
+        </BalanceDisplay>
+      )}
+      {isLoading && <BalanceDisplay>Carregando saldo...</BalanceDisplay>}
     </Container>
   )
 }
