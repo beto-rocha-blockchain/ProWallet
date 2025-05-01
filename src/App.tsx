@@ -1,7 +1,10 @@
+import { BalancePanel } from './components/BalancePanel'
 import { useEffect, useState } from 'react'
 import { ConnectButton } from '@rainbow-me/rainbowkit'
 import { useAccount, useBalance } from 'wagmi'
 import styled from '@emotion/styled'
+
+
 
 const Container = styled.div`
   display: flex;
