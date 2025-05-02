@@ -24,7 +24,7 @@
 - [Viem](https://viem.sh/)
 - [RainbowKit](https://www.rainbowkit.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- TypeScript
+- [TypeScript](https://www.typescriptlang.org/)
 
 ---
 
