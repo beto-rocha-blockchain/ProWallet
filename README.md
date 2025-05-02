@@ -56,4 +56,5 @@ npm run dev
 ```
 4. **Acessando o host:**
 
-Acesse: http://localhost:5173
+  - Acesse: http://localhost:5173
+  - Caso encontre problemas ou querira dar sugestões, entre em contato!
